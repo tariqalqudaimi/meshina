@@ -6,7 +6,7 @@ const Header = () => {
     <header className="bg-white shadow-md sticky top-0 z-50">
       <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
         <Link to="/" className="text-2xl font-bold text-green-600">
-          Mala3eb<span className="text-gray-800">.com</span>
+          MESHINA<span className="text-gray-800">.com</span>
         </Link>
         <ul className="hidden md:flex items-center space-x-8">
           <li><Link to="/" className="text-gray-600 hover:text-green-600 font-medium">الرئيسية</Link></li>
