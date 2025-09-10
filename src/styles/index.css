@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    /* إضافة سلوك التمرير الناعم على مستوى الموقع بالكامل */
+    scroll-behavior: smooth;
+  }
+
+  body {
+    /* 
+      تحديد الخط الأساسي للتطبيق. 
+      هنا نستخدم خط "Cairo" كمثال لخط عربي مناسب.
+      يجب أولاً استيراده في ملف index.html أو هنا باستخدام @import.
+    */
+    font-family: 'Cairo', system-ui, sans-serif;
+    
+    /* تحسين عرض الخطوط لمظهر أكثر سلاسة */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
